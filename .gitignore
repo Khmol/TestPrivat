@@ -1,8 +1,6 @@
 *.iml
-/.allure
-/allure-results
-/target
-/build
-
-
+/.allure/
+/allure-results/
+/target/
+/build/
 
