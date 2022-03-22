@@ -1,0 +1,7 @@
+pages\loans\CarLoansPage.class
+common\CommonAction.class
+pages\telecomunications\MobilePhoneReplenishmentPage.class
+common\Constants.class
+pages\base\BasePage.class
+common\Config.class
+common\Constants$MobileReplenishmentTestData.class

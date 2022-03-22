@@ -1,0 +1,8 @@
+*.iml
+/.allure
+/allure-results
+/target
+/build
+
+
+
