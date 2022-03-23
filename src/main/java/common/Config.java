@@ -7,7 +7,7 @@ public class Config {
      * CHROME
      * FIREFOX
      */
-    public static final String BROWSER_AND_PLATFORM = "FIREFOX";
+    public static final String BROWSER_AND_PLATFORM = "CHROME";
     // очистка Cookies
     public static final Boolean CLEAR_COOKIES = true;
     // оставить браузер открытым

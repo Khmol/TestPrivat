@@ -3,8 +3,8 @@ package tests.telecomunications.positive;
 import org.junit.jupiter.api.Test;
 import tests.base.BaseTest;
 
-import static common.Constants.MOBILE_PAYMENT_URL;
-import static common.Constants.MobileReplenishmentTestData.*;
+import static constants.Constants.MOBILE_PAYMENT_URL;
+import static constants.Constants.MobileReplenishmentTestData.*;
 
 public class MobilePhoneReplenishmentTest extends BaseTest {
 
@@ -14,6 +14,7 @@ public class MobilePhoneReplenishmentTest extends BaseTest {
         mobilePhoneReplenishmentPage.selectCardFromWallet();
         basePage.isAuthWidgetPresent();
     }
+
 
     @Test
     public void checkMinimumReplanishmentAmount(){
@@ -28,6 +29,6 @@ public class MobilePhoneReplenishmentTest extends BaseTest {
                 enterLastname(MOBILE_PAYMENT_CARD_LASTNAME).
                 submitToTheCard().
                 isCardConfirmationPresent().
-                isCardConfirmationDetailsActual("1Mobile payment. Phone number +380504735357");
+                isCardConfirmationDetailsActual("Mobile payment. Phone number +380504735357");
     }
 }

@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import pages.base.BasePage;
+import pages.head.HeadPage;
 import pages.loans.CarLoansPage;
 import pages.telecomunications.MobilePhoneReplenishmentPage;
 
@@ -27,6 +28,7 @@ import static common.Config.*;
 public class BaseTest {
     protected WebDriver driver = CommonAction.createDriver();
     protected BasePage basePage = new BasePage(driver);
+    protected HeadPage headPage = new HeadPage(driver);
     protected CarLoansPage carLoansPage = new CarLoansPage(driver);
     protected MobilePhoneReplenishmentPage mobilePhoneReplenishmentPage = new MobilePhoneReplenishmentPage(driver);
     public static final Logger LOGGER = LoggerFactory.getLogger(BaseTest.class);

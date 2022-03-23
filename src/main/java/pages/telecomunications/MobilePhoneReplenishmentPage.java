@@ -19,10 +19,10 @@ public class MobilePhoneReplenishmentPage extends BasePage {
     private final By inputPhoneNumber = By.xpath("//input[@data-qa-node='phone-number']");
     private final By inputAmount = By.xpath("//input[@data-qa-node='amount']");
     private final By buttonSubmitToTheCard = By.xpath("//button[@data-qa-node='submit']");
-    private final By cardConfirmationWindow = By.xpath("//div[@class='root_2Ppdv85wAf']");
+    private final By cardConfirmationWindow = By.xpath("//div[@class='root_TbQ2gtRm6W']");
     private final By inputCardFirstname = By.xpath("//input[@data-qa-node='firstNamedebitSource']");
     private final By inputCardLastname = By.xpath("//input[@data-qa-node='lastNamedebitSource']");
-    private final By cardConfirmationDetails = By.xpath("//span[@data-qa-node='details']");
+    private final By cardConfirmationDetails = By.xpath("//div[@data-qa-node='details']");
 
     public MobilePhoneReplenishmentPage selectCardFromWallet(){
         driver.findElement(buttonWallet).click();

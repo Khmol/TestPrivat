@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.concurrent.TimeUnit;
 
 import static common.Config.BROWSER_AND_PLATFORM;
-import static common.Constants.IMPLICIT_WAIT;
+import static constants.Constants.IMPLICIT_WAIT;
 
 public class CommonAction {
     public static WebDriver createDriver() {
