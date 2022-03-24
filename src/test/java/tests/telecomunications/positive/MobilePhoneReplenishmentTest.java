@@ -15,7 +15,6 @@ public class MobilePhoneReplenishmentTest extends BaseTest {
         basePage.isAuthWidgetPresent();
     }
 
-
     @Test
     public void checkMinimumReplanishmentAmount(){
         basePage.goToUrl(MOBILE_PAYMENT_URL);

@@ -14,6 +14,7 @@ import org.slf4j.LoggerFactory;
 import pages.base.BasePage;
 import pages.head.HeadPage;
 import pages.loans.CarLoansPage;
+import pages.money_transfers.TransferToCardPage;
 import pages.telecomunications.MobilePhoneReplenishmentPage;
 
 import java.io.File;
@@ -23,13 +24,14 @@ import java.util.Objects;
 import static common.Config.*;
 
 @ExtendWith(Listener.class)
-//@Execution(ExecutionMode.CONCURRENT)
+@Execution(ExecutionMode.CONCURRENT)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class BaseTest {
     protected WebDriver driver = CommonAction.createDriver();
     protected BasePage basePage = new BasePage(driver);
     protected HeadPage headPage = new HeadPage(driver);
     protected CarLoansPage carLoansPage = new CarLoansPage(driver);
+    protected TransferToCardPage transferToCardPage = new TransferToCardPage(driver);
     protected MobilePhoneReplenishmentPage mobilePhoneReplenishmentPage = new MobilePhoneReplenishmentPage(driver);
     public static final Logger LOGGER = LoggerFactory.getLogger(BaseTest.class);
 

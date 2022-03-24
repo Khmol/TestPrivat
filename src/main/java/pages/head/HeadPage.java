@@ -8,8 +8,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.base.BasePage;
 import pages.telecomunications.MobilePhoneReplenishmentPage;
 
-import java.time.Duration;
-
 public class HeadPage extends BasePage {
 
     private final By buttonSignIn = By.xpath("//button[@data-qa-node='login']");

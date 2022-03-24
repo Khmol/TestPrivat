@@ -5,6 +5,7 @@ public class Constants {
     public static final String HEAD_PAGE_URL = "https://next.privat24.ua/?lang=en";
     public static final String MOBILE_PAYMENT_URL = "https://next.privat24.ua/mobile?lang=en";
     public static final String CAR_LOANS_PAYMENT_URL = "https://next.privat24.ua/auto-credit/order?lang=en";
+    public static final String MONEY_TRANSFER_CARD_URL = "https://next.privat24.ua/money-transfer/card?lang=en";
 
     // таймаут неявного ожидания
     public static final int IMPLICIT_WAIT = 10;
