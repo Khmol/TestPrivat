@@ -28,6 +28,6 @@ public class MobilePhoneReplenishmentTest extends BaseTest {
                 enterLastname(MOBILE_PAYMENT_CARD_LASTNAME).
                 submitToTheCard().
                 isCardConfirmationPresent().
-                isCardConfirmationDetailsActual("Mobile payment. Phone number +380504735357");
+                isCardConfirmationDetailsActual(MOBILE_PHONE_CONFIRMATION_DETAILS);
     }
 }
