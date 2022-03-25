@@ -18,7 +18,5 @@ public class Constants {
         public static final String MOBILE_PAYMENT_CARD_FIRSTNAME = "PETER";
         public static final String MOBILE_PAYMENT_CARD_LASTNAME = "SCROGGS";
         public static final String MOBILE_PHONE_CONFIRMATION_DETAILS = "Mobile payment. Phone number +380504735357";
-
-
     }
 }

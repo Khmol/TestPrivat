@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.telecomunications.positive.MobilePhoneReplenishmentTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.555 s - in tests.telecomunications.positive.MobilePhoneReplenishmentTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.41 s - in tests.telecomunications.positive.MobilePhoneReplenishmentTest

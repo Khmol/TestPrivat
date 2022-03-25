@@ -1,4 +1,7 @@
-tests\telecomunications\positive\MobilePhoneReplenishmentTest.class
+tests\head\positive\HeadPositiveTest.class
 tests\base\Listener.class
 tests\loans\positive\CarLoansPositiveTest.class
 tests\base\BaseTest.class
+tests\money_transfers\positive\TransferToCardPositiveTest.class
+tests\telecomunications\positive\MobilePhoneReplenishmentTest.class
+tests\head\negative\HeadNegativeTest.class

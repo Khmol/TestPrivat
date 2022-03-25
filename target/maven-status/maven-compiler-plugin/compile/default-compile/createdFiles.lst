@@ -1,7 +1,9 @@
 pages\loans\CarLoansPage.class
 common\CommonAction.class
 pages\telecomunications\MobilePhoneReplenishmentPage.class
-common\Constants.class
+constants\Constants$MobileReplenishmentTestData.class
 pages\base\BasePage.class
 common\Config.class
-common\Constants$MobileReplenishmentTestData.class
+constants\Constants.class
+pages\head\HeadPage.class
+pages\money_transfers\TransferToCardPage.class
