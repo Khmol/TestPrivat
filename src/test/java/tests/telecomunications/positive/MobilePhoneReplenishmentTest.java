@@ -30,4 +30,10 @@ public class MobilePhoneReplenishmentTest extends BaseTest {
                 isCardConfirmationPresent().
                 isCardConfirmationDetailsActual(MOBILE_PHONE_CONFIRMATION_DETAILS);
     }
+
+    @Test
+    public void checkDefaultValueAmount(){
+        basePage.goToUrl(MOBILE_PAYMENT_URL);
+        mobilePhoneReplenishmentPage.isDefaultValueAmountMatch(50);
+    }
 }

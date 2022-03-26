@@ -82,4 +82,11 @@ public class MobilePhoneReplenishmentPage extends BasePage {
         Assertions.assertEquals(text, cardConfirmationDetailsText.getText());
         return this;
     }
+
+    public MobilePhoneReplenishmentPage isDefaultValueAmountMatch(Integer defaultAmount){
+        WebElement weInputAmount = driver.findElement(inputAmount);
+        String inputAmountTextText = weInputAmount.getAttribute("value");
+        Assertions.assertEquals(String.valueOf(defaultAmount), inputAmountTextText);
+        return this;
+    }
 }
